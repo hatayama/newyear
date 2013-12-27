@@ -1,0 +1,21 @@
+# MacOSX
+.DS_Store
+
+# vim
+*.swp
+
+# Unity
+Library/*
+!Library/BuildSettings.asset
+!Library/ProjectSettings.asset
+#!Library/EditorUserBuildSettings.asset
+!ProjectSettings/EditorBuildSettings.asset
+Assembly-*
+*.csproj
+*.sln
+*.pidb
+*.userprefs
+Data/Cache/
+Temp
+app_root/*
+Build/*
